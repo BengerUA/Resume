@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.flex-body {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Poppins;
+}
+
+/* LEFT COLUMN STYLES */
+.left-column {
+  background-color: #2b2d30;
+  padding: 40px;
+}
+.left-column h1 {
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+  color: #2e7ee0;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+.contact {
+  margin-bottom: 50px;
+}
+.contact li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.contact a:hover {
+  color: yellow;
+  transition: all 0.5s;
+}
+
+.tech-skills {
+  margin-bottom: 50px;
+}
+.language h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.technology {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.technology-lvl {
+  width: 80%;
+  height: 10px;
+  background-color: white;
+}
+
+.js-lvl-my {
+  width: 30%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.react-lvl-my {
+  width: 45%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.html-lvl-my {
+  width: 70%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.css-lvl-my {
+  width: 75%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.material-lvl-my {
+  width: 45%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.sass-lvl-my {
+  width: 50%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.tailwind-lvl-my {
+  width: 55%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.wordpress-lvl-my {
+  width: 35%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+.bootstrap-lvl-my {
+  width: 60%;
+  height: 10px;
+  background-color: #2e7ee0;
+}
+
+/* RIGHT COLUMN STYLES */
+.right-column {
+  background-color: #fff;
+  border-right: 10px solid #2B2D30;
+  padding: 40px;
+}
+.head-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-info__text {
+  text-align: right;
+}
+.head-info__text h1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #2e7ee0;
+  line-height: 60px;
+}
+.head-info__text h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2b2d30;
+  letter-spacing: 2px;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+.head-info__social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.linkedin {
+  width: 50px;
+  height: 50px;
+  background-image: url(/assets/icons8-linkedin-50.png);
+  transition: all 0.5s;
+}
+.linkedin:hover {
+  background-image: url(/assets/icons8-linkedin-hover.png);
+  transition: all 0.5s;
+}
+.facebook {
+  width: 50px;
+  height: 50px;
+  background-image: url(/assets/icons8-facebook-50.png);
+  transition: all 0.5s;
+}
+.facebook:hover {
+  background-image: url(/assets/icons8-facebook-hover.png);
+  transition: all 0.5s;
+}
+.github {
+  width: 50px;
+  height: 50px;
+  background-image: url(/assets/icons8-github-50.png);
+  transition: all 0.5s;
+}
+.github:hover {
+  background-image: url(/assets/icons8-github-hover.png);
+  transition: all 0.5s;
+}
+
+.right-column h1 {
+  display: inline-block;
+  font-size: 40px;
+  border-bottom: 2px solid #2e7ee0;
+  font-weight: 600;
+  color: #2e7ee0;
+  line-height: 44px;
+  margin: 32px 0;
+}
+
+.about-me p {
+  color: #2b2d30;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.institution {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.university {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.college {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.education h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+.education h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+.skills h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.skills p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
